@@ -1,0 +1,84 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links ul{
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav .nav-login{
+    background-color: black;
+}
+
+nav .nav-login a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgba(255, 255, 255, 0.252);
+    transition: 240ms;
+    border-radius: 7px;
+}
+
+.secao{
+    border: solid 5px rgb(212, 212, 212);
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    border: solid 4px white;
+    border-radius: 7px;
+    width: 320px;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+}
+
+input{
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+input [type="radio"]{
+    width: auto;
+}
