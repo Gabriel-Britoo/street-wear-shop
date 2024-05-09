@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>login</title>
-</head>
+    <title>Entrar</title>
+</head> 
 <body>
-    <form>
-        <div>
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" placeholder="Digite seu nome" required>
-        </div>
-        <div>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" placeholder="Digite sua senha" required>
-        </div>
-        <div>
-            <label>Preferência de notificações:</label>
-            <input type="radio" name="notifica" id="notifica-email" value="email">
-            <label>E-mail</label>
-            <input type="radio" name="notifica" id="notifica-sms" value="sms">
-            <label>SMS</label>
-        </div>
-        <div>
-            <button type="button">Entrar</button>
-        </div>
-    </form>
+    <div id="form-login">
+        <form> 
+            <div>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" placeholder="Digite seu nome" required>
+            </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
+            </div>
+            <div>
+                <label>Preferência de notificações:</label>
+                <input type="radio" name="notifica" id="notifica-email" value="email">
+                <label>E-mail</label>
+                <input type="radio" name="notifica" id="notifica-sms" value="sms">
+                <label>SMS</label>
+            </div>
+            <div>
+                <button type="button">Entrar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

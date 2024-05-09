@@ -8,10 +8,23 @@ html{
 nav{
     background-color: black;
     color: white;
-    padding: 20px 20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Verdana;
+}
+
+#logo{
+    width: 100px;
+}
+
+#buscar{
+    width: 280px;
+    margin-top: 4px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
 }
 
 nav .nav-links ul{
@@ -50,16 +63,21 @@ a:hover{
 }
 
 footer{
+    font-family: Verdana;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 15px;
-    position: fixed;
+    padding: 15px 0px;
     bottom: 0;
     width: 100%;
 }
 
-form{
+.rodape a{
+    text-decoration: none;
+    color: rgb(153, 255, 51);
+}
+
+#form-login{
     background-color: rgb(255, 255, 255);
     border: solid 4px white;
     border-radius: 7px;
