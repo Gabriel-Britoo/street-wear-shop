@@ -3,16 +3,16 @@ html{
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 }
 
 nav{
-    background-color: black;
+    background-color: rgb(43, 43, 43);
     color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Verdana;
 }
 
 #logo{
@@ -58,12 +58,45 @@ a:hover{
 }
 
 .secao{
-    border: solid 5px rgb(212, 212, 212);
     height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.imgs_grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    padding-left: 8%;
+}
+
+#destaque{
+    width: 300px;
+}
+
+#venda{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+    border: 2px solid rgb(238, 238, 238);
+    padding: 10px;
+}
+
+#valor{
+    color: rgb(142, 218, 28);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#add-carrinho{
+    border: 2px solid  rgb(142, 218, 28);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(142, 218, 28);
 }
 
 footer{
-    font-family: Verdana;
     background-color: black;
     color: white;
     text-align: center;
